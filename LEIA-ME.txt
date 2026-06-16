@@ -1,0 +1,65 @@
+================================================================================
+                                 SimpTimer
+================================================================================
+Rastreador de produtividade e registro de tempo de modelagem para Autodesk Revit.
+
+Compatível com: Autodesk Revit 2024, 2025, 2026 e 2027.
+Desenvolvido por: Lucas Martins | SimplificaBIM
+
+--------------------------------------------------------------------------------
+1. SOBRE O PLUGIN
+--------------------------------------------------------------------------------
+O SimpTimer registra automaticamente as suas sessões de trabalho nos projetos de
+Revit, monitorando o tempo ativo de modelagem. Caso você fique inativo por mais
+de 15 minutos (sem movimentação de mouse ou teclado), o timer pausará e o tempo
+de inatividade será deduzido, garantindo relatórios de produtividade precisos.
+
+Principais recursos:
+- Registro de tempo estruturado por Profissional, Projeto e Atividade.
+- Lógica inteligente de detecção de inatividade de 15 minutos.
+- Seleção de tema dinâmico (Modo Escuro, Modo Claro ou seguindo o tema do Revit).
+- Relatórios salvos localmente em formato JSON e CSV de forma automática.
+- Interface moderna, compacta e de alta fidelidade visual (Premium Dark/Light).
+
+--------------------------------------------------------------------------------
+2. COMO INSTALAR
+--------------------------------------------------------------------------------
+Para instalar o SimpTimer em sua máquina de forma simples:
+
+1. Feche o Autodesk Revit (caso esteja aberto).
+2. Execute o arquivo "SimpTimer_Installer.exe" disponível na pasta.
+3. O instalador detectará automaticamente as versões do Revit instaladas no seu
+   sistema (2024, 2025, 2026 e/or 2027).
+4. Caso alguma versão não seja detectada automaticamente devido a caminhos
+   customizados, você poderá marcar a caixa da versão correspondente para forçar
+   a instalação.
+5. Clique no botão "Instalar". O processo extrairá os arquivos necessários para
+   a pasta %APPDATA%\Autodesk\Revit\Addins\{versao}\ de forma automatizada.
+6. Ao abrir o Revit, o plugin estará disponível na nova Ribbon Tab "SimpTimer".
+
+--------------------------------------------------------------------------------
+3. COMO DESINSTALAR
+--------------------------------------------------------------------------------
+Para remover o plugin do seu sistema:
+
+1. Abra o arquivo "SimpTimer_Installer.exe".
+2. Clique no botão "Desinstalar".
+3. Confirme a remoção. O instalador apagará os arquivos correspondentes de todas
+   as pastas de addins do Revit.
+
+--------------------------------------------------------------------------------
+4. SELEÇÃO DE TEMAS
+--------------------------------------------------------------------------------
+O SimpTimer suporta 3 modos visuais que podem ser alterados no topo da janela:
+- Dark: Tema escuro otimizado para reduzir a fadiga ocular.
+- Light: Tema claro de alta legibilidade e design minimalista.
+- Mesmo do Revit: O plugin detecta automaticamente se o Revit está usando o
+  tema claro ou escuro e se adapta dinamicamente para manter a unidade visual.
+
+--------------------------------------------------------------------------------
+5. SUPORTE E CONTATO
+--------------------------------------------------------------------------------
+Para entrar em contato com o desenvolvedor, tirar dúvidas ou solicitar melhorias:
+- Site Oficial: https://simplifica-bim.vercel.app
+- LinkedIn: https://www.linkedin.com/in/englucaslucas/
+================================================================================
